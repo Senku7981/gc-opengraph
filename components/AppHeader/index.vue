@@ -7,7 +7,7 @@
       </a>
       <a href="#" class="login">
         <img
-            src="public/Door-icon.svg"
+            src='/src/Door-icon.svg'
             alt="Login"
             class="icon-login"
             width="16"
@@ -34,13 +34,13 @@ export default {
 }
 
 
-.wrapper{
+.wrapper {
   display: flex;
   align-items: center;
+  margin: 0 20vh;
   justify-content: space-between;
 }
 .logo {
-  margin-left: 20vh;
   text-decoration: none;
   font-family: Gilroy;
   font-size: 28px;
@@ -49,11 +49,11 @@ export default {
 }
 
 .gc {
-  display: inline;
+  display: inline-block;
 }
 
 .opengraph {
-  display: inline;
+  display: inline-block;
   background: linear-gradient(93deg, #ffc000 0.24%, #f06966 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -66,7 +66,6 @@ export default {
   font-family: Gilroy;
   font-size: 14px;
   font-weight: 500;
-  margin-right: 20vh;
 }
 .icon-login {
   position: absolute;
