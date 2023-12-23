@@ -40,6 +40,7 @@ export default {
   margin: 0 20vh;
   justify-content: space-between;
 }
+
 .logo {
   text-decoration: none;
   font-family: Gilroy;
@@ -62,11 +63,12 @@ export default {
 .login {
   position: relative;
   text-decoration: none;
-  color:  #2e3138;
+  color: #2e3138;
   font-family: Gilroy;
   font-size: 14px;
   font-weight: 500;
 }
+
 .icon-login {
   position: absolute;
   left: -23px;

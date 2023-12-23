@@ -1,11 +1,20 @@
-<script setup lang="ts">
-const route = useRoute()
+<template>
+  <div class="">
 
+  <CheckLink/>
+  </div>
+</template>
+
+<script lang="ts">
+import CheckLink from '../components/CheckLink/index.vue'
+
+export default {
+  components: {
+    CheckLink
+  },
+}
 </script>
 
-<template>
-      <p>Current route: {{ route.path }}</p>
-</template>
 
 <style scoped>
 

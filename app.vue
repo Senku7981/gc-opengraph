@@ -1,9 +1,7 @@
 <template>
   <AppHeader/>
-  <div class="container">
-    <WelcomeText/>
-    <NuxtPage />
-  </div>
+  <WelcomeText/>
+  <NuxtPage/>
   <AppFooter/>
 </template>
 
@@ -13,17 +11,12 @@ import AppHeader from "./components/AppHeader/index.vue";
 import WelcomeText from "./components/WelcomeText/index.vue";
 
 export default {
-  components: {WelcomeText, AppFooter,AppHeader}
+  components: {WelcomeText, AppFooter, AppHeader}
 }
 
 </script>
 
 <style>
-.container {
-  display: flex;
-  align-items: center;
-  margin: 0 20vh;
-  flex-direction: column;
-}
+
 </style>
 
