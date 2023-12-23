@@ -1,17 +1,15 @@
 <template>
   <div class="">
-
-  <CheckLink/>
+  <check-link/>
   </div>
+
 </template>
 
 <script lang="ts">
-import CheckLink from '../components/CheckLink/index.vue'
 
 export default {
-  components: {
-    CheckLink
-  },
+  components: {}
+
 }
 </script>
 

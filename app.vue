@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import AppFooter from "./components/AppFooter/index.vue";
-import AppHeader from "./components/AppHeader/index.vue";
-import WelcomeText from "./components/WelcomeText/index.vue";
+import AppFooter from "./components/footer-component/index.vue";
+import AppHeader from "./components/header-component/index.vue";
+import WelcomeText from "./components/welcome-text/index.vue";
 
 export default {
   components: {WelcomeText, AppFooter, AppHeader}
