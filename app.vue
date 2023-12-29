@@ -1,8 +1,9 @@
 <template>
-  <AppHeader/>
-  <WelcomeText/>
-  <NuxtPage/>
-  <AppFooter/>
+  <AppHeader />
+  <WelcomeText />
+
+  <NuxtPage />
+  <AppFooter />
 </template>
 
 <script>
@@ -11,12 +12,8 @@ import AppHeader from "./components/header-component/index.vue";
 import WelcomeText from "./components/welcome-text/index.vue";
 
 export default {
-  components: {WelcomeText, AppFooter, AppHeader}
-}
-
+  components: { WelcomeText, AppFooter, AppHeader },
+};
 </script>
 
-<style>
-
-</style>
-
+<style></style>

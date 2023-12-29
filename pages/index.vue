@@ -1,19 +1,10 @@
 <template>
-  <div class="">
+  <mode-selection-switch/>
   <check-link/>
-  </div>
-
 </template>
 
 <script lang="ts">
 
-export default {
-  components: {}
-
-}
 </script>
 
-
-<style scoped>
-
-</style>
+<style scoped></style>

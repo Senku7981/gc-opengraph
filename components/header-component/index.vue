@@ -1,18 +1,17 @@
 <template>
   <header class="header">
     <div class="wrapper">
-      <a href="#" class="logo">
+      <NuxtLink to="/" class="logo">
         <div class="gc">gc</div>
         <div class="opengraph">opengraph</div>
-      </a>
+      </NuxtLink>
       <a href="#" class="login">
         <img
-            src='/src/Door-icon.svg'
-            alt="Login"
-            class="icon-login"
-            width="16"
-            height="25"
-
+          src="/src/Door-icon.svg"
+          alt="Login"
+          class="icon-login"
+          width="16"
+          height="25"
         />
         Войти в аккаунт
       </a>
@@ -20,11 +19,7 @@
   </header>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'AppHeader'
-}
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 * {
@@ -32,7 +27,6 @@ export default {
   padding: 0;
   margin: 0;
 }
-
 
 .wrapper {
   display: flex;
